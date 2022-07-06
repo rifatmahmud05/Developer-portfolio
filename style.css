@@ -7,6 +7,9 @@ body{
 h1{
     font-size: 45px;
 }
+h2{
+    font-size: 30px;
+}
 
 p{
     font-size: 20px;
@@ -23,24 +26,24 @@ p{
 }
 
 .half-width{
-    width: 50%;
-    width: 50%;
-    padding-left: 5%;
-    padding-right: 5%;
+    width: 70%;
+    width: 70%;
+    padding-left: 1%;
+    padding-right: 10%;
 }
 
 .half-width img{
-    width: 70%;
-    width: 90%;
-    padding-left: 20%;
-    padding-left: 20%;
-    padding-top: 4%;
+    width: 95%;
+    width: 95%;
+    padding-left: 5%;
+    padding-right: 20%;
+    padding-top: 2%;
 }
 .link-button{
     text-decoration: none;
     background-color: #ff4400;
     font-weight: 700;
-    padding: 5px 20px;
+    padding: 5px 15px;
     border-radius: 5px;
     font-size: 20px;
 
@@ -51,9 +54,30 @@ p{
 .top-banner{
     background-image: url(top-banner.png);
     background-repeat: no-repeat;
+    background-position: left;
 }
 .dream-big{
     background-image: url(dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
 }
+.experience-area{
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: 0%;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 22px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 50px grey;
+    box-shadow: left 50px;
+    border-left: 7px solid rgb(233, 35, 0);
+}
+
+footer p{
+    text-align: center;
+}
+
